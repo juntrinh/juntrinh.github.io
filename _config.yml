@@ -2,7 +2,7 @@
 title: A blog about lorem ipsum dolor sit amet
 description: A blog about lorem ipsum dolor sit amet
 # the subpath of your site, e.g. /blog
-baseurl: "/juntrinh.github.io/" 
+baseurl: "" 
 # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 url: "https://juntrinh.github.io/" 
 
