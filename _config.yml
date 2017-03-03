@@ -2,9 +2,9 @@
 title: A blog about lorem ipsum dolor sit amet
 description: A blog about lorem ipsum dolor sit amet
 # the subpath of your site, e.g. /blog
-baseurl: "/dungquoctrinh_ver3/" 
+baseurl: "/juntrinh.github.io/" 
 # the base hostname & protocol for your site e.g. http://willianjusten.com.br
-url: "localhost:3000" 
+url: "https://juntrinh.github.io/" 
 
 # User settings
 username: Anon Developer
