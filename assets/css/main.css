@@ -194,11 +194,23 @@ body {
     margin: 10px auto
 }
 
+
+ul {
+    -moz-column-count: 2;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;
+    column-count: 2;
+    column-gap: 20px;
+}
+
+
 ul.feature-icons {
     list-style: none;
     padding-left: 0;
 }
 
+/**Set the item*/
 ul.feature-icons li {
     text-decoration: none;
     display: inline-block;
@@ -206,7 +218,8 @@ ul.feature-icons li {
     padding: 0.35em 0 0 3.5em;
     position: relative;
     vertical-align: top;
-    width: 48%;
+    width: 60%;
+
 }
 
 ul.feature-icons li:before {
@@ -232,14 +245,6 @@ ul.feature-icons li:before {
     width: 2.5em;
 }
 
-ul {
-    -moz-column-count: 2;
-    -moz-column-gap: 20px;
-    -webkit-column-count: 2;
-    -webkit-column-gap: 20px;
-    column-count: 2;
-    column-gap: 20px;
-}
 
 .user-projects {
     margin: 40px auto
