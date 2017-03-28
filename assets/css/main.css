@@ -252,14 +252,11 @@ ul.feature-icons li:before {
     margin-right: 5px
 }
 
+
+
 @media only screen and (min-width: 768px) {
     .images {
         float: right
-    }
-
-    ul.feature-icons li {
-        display: block;
-        width: 100%;
     }
 }
 
