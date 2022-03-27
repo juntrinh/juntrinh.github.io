@@ -2,28 +2,100 @@
   <div class="user-details">
     <h3> Featured Projects </h3>
   </div>
+
+  <!--FIXME: Fix the image size-->
+  <!--Project 1-->
   <div class="row user-projects">
     <div class="six columns images">
-      <img alt="mountains" src="{{ "/assets/img/mountains.jpg" | prepend: site.baseurl }}" />
+        <img alt="chatroom" src="/assets/img/chat.JPG" height="50%" />
     </div>
     <div class="six columns">
-      <h5> Project Title </h5>
+      <h5> Simple Chatroom </h5>
       <li> Featured Skills</li>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      <a class="project-link" href="#">Check it out</a>
+        <ul>
+            <li> Heroku</li>
+            <li>Socket.io</li>
+        </ul>
+      <p>A simple chat room allows multiple users chat at the same time. The app is hosted with Heroku and use socket.io
+      for events and messaging handle</p>
+      <a class="project-link" href="http://stormy-shore-70304.herokuapp.com/">Check it out</a>
     </div>
   </div>
+
+    <!--Project 2-->
   <div class="row user-projects">
     <div class="six columns">
-      <img alt="mountains" src="{{ "/assets/img/skate.jpg" | prepend: site.baseurl }}" />
+        <img alt="foodhunter" src="/assets/gif/food_hunter_gif.gif" height="50%" />
     </div>
     <div class="six columns">
-      <h5> Project Title </h5>
-      <ul>
-        <li> Featured Skills</li>
-      </ul>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      <a class="project-link" href="#">Check it out</a>
+      <h5> Food Hunter </h5>
+        <ul>
+            <li> Firebase</li>
+        </ul>
+      <p>An Android application use crowd-sourcing infos from students to collect the
+          information about events on campus that has free food. Users can input the information in the app and the data get synchronized on all devices
+          The app uses firebase for real-time data
+      synchronization.</p>
+      <a class="project-link" href="https://github.com/dungquoctrinh/Food-Hunter">Github repo</a>
     </div>
   </div>
+
+    <!--Project 3-->
+    <div class="row user-projects">
+        <div class="six columns images">
+            <img alt="chatroom" src="/assets/gif/ezgif.com-video-to-gif.gif" height="50%" />
+        </div>
+        <div class="six columns">
+            <h5> Readit </h5>
+            <li> Featured Skills</li>
+            <ul>
+                <li>Reddit API</li>
+                <li>GSON</li>
+            </ul>
+            <p>A clone of Reddit. Allow users access the sub reddit on the tip of the fingers.
+                Because Reddit is the only official source of news</p>
+            <a class="project-link" href="https://github.com/dungquoctrinh/RedditClone">Github repo</a>
+        </div>
+    </div>
+
+    <!--Project4-->
+    <div class="row user-projects">
+        <div class="six columns">
+            <!--Resize the image by 50%-->
+            <img alt="callroutllet" src="/assets/img/callroutelett.png" height="50%" />
+        </div>
+
+        <div class="six columns">
+            <h5> Call Roulette </h5>
+            <ul>
+                <li> Heroku</li>
+                <li> Twilio</li>
+                <li> Python</li>
+            </ul>
+            <p>Have you ever wonder what would happen if you call a random number. There is 10 billion combinations
+                of phone number and one of them could belong to your soulmate. This android app will randomly call
+                a stranger anonymously.
+                The app uses Twillio for the call service with the Heroku backend. And fate takes control of the rest</p>
+            <a class="project-link" href="https://github.com/dungquoctrinh/CallRoulette">Github repo</a>
+        </div>
+    </div>
+
+    <!--Project5-->
+    <div class="row user-projects">
+        <div class="six columns images">
+            <!--Resize the image by 50%-->
+            <img alt="guessmyage" src="/assets/img/guessmyage.png" height="50%" />
+        </div>
+
+        <div class="six columns">
+            <h5> Guess My Age </h5>
+            <ul>
+                <li> IBM Watson</li>
+            </ul>
+            <p>Facial recognition with IBM Watson.
+                Using IBM Watson visual recognition to give the user the estimate of their age based on a selfie. And because
+            IBM Watson is AI so it is fair :)</p>
+            <a class="project-link" href="https://github.com/dungquoctrinh/GuessMyAge">Github repo</a>
+        </div>
+    </div>
 </div>
